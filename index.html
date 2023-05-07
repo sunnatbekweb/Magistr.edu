@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <!-- box icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Normalize css -->
+    <link rel="stylesheet" href="/styles/normalize.css">
+    <!-- Main css -->
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+
+<body>
+
+    <div class="modal-window" id="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <p>Kirish yoki ro'yhatdan o'tish</p> <i class='bx bx-x' id="close"></i>
+
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <div class="container">
+            <nav class="nav">
+                <a href="#">
+                    <img src="/assets/icons/Group 41240.svg" alt="logo" class="nav__logo">
+                </a>
+
+                <ul class="nav__list">
+                    <li class="nav__list--item"><a href="#" class="nav__list--item-link">Asosiy</a></li>
+                    <li class="nav__list--item"><a href="#" class="nav__list--item-link">Imtoiyozlar</a></li>
+                    <li class="nav__list--item"><a href="#" class="nav__list--item-link">Yangiliklar</a></li>
+                    <li class="nav__list--item"><a href="#" class="nav__list--item-link">Statistika</a></li>
+                    <li class="nav__list--item"><a href="#" id="open" class="nav__list--item-link btn">Kirish</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section id="intro">
+            <div class="container">
+
+                <div class="wrapper">
+
+                    <div class="left">
+
+                        <h1>Magistratura uchun <span>Qabul 2023</span></h1>
+                        <p>Oliy ta'lim muassasalarining magistraturasiga kirish imtihonlarida <br> ishtirok etish uchun
+                            onlayn
+                            ariza topshirish tizimi</p>
+                        <button>Ariza topshirish <i class='bx bx-arrow-back'></i></button>
+
+                    </div>
+
+                    <img src="/assets/images/Abror 1.png" alt="">
+
+                    <div class="right">
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section id="benefits">
+            <div class="container">
+                <h1 class="benefits-title">Magistraturaga topshiruvchilar uchun imtiyozlar</h1>
+                <div class="benefits-wrapper">
+                    <div class="card">
+                        <img src="/assets/icons/Icon.svg" alt="">
+                        <h1>Yutuqlar</h1>
+                        <p>Nomdor davlat stipendiyalari va “Zulfiya” hamda “Mard o‘g’lon” davlat mukofatlari.</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="/assets/icons/Icon (1).svg" alt="">
+                        <h1>Yutuqlar</h1>
+                        <p>Xorijiy tillar bo‘yicha hamda milliy sertifikatlar.</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="/assets/icons/Icon (2).svg" alt="">
+                        <h1>Yutuqlar</h1>
+                        <p>9- va 11- sinflarni maxsus maktablara ta’lim olgan ko‘zi ojiz fuqarolar</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="reception-system">
+            <div class="container">
+                <div class="reception-system-title">
+                    <h1>Qabul tizimdan qanday foydalaniladi?</h1>
+                    <p>Saytimiz yoki mobil ilovamizdan ro‘yxatdan o‘ting so‘ngra o‘zingiz istagan kurslardan birini
+                        tanlab, to‘lovni amalga
+                        oshiring va yangi bilimlar olish imkoniyatiga ega bo‘ling.
+                    </p>
+                </div>
+
+                <div class="reception-system-img">
+                    <button><img src="/assets/icons/play-icon.svg" alt=""></button>
+                </div>
+
+                <h1 class="rs-title">Ariza topshirish va uni qabul <br> qilish jarayoni</h1>
+
+                <div class="rs_wrapper">
+                    <div class="rs-card">
+                        <h1>1</h1>
+                        <div class="rs-card-text">
+                            <h2>Tizimdan ro‘yxatdan o’tiladi va ariza topshirladi</h2>
+                            <p>Tizimdan oneid orqali ro‘yxatdan o‘ting va shaxsiy ma’lumotlaringizni to‘ldring va ariza
+                                qoldiring.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="rs-card">
+                        <h1>2</h1>
+                        <div class="rs-card-text">
+                            <h2>Diplom ma’lumotlarini tekshirish va tasdiqlash</h2>
+                            <p>Ariza birinchi bo‘lib ariza topshiruvchining bakalavrlik oliy ta’lim muassasiga borib
+                                tushadi va shu yerda diplom tekshiriladi.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="rs-card">
+                        <h1>3</h1>
+                        <div class="rs-card-text">
+                            <h2>Tizimdan ro‘yxatdan o’tiladi va ariza topshirladi</h2>
+                            <p>Tizimdan oneid orqali ro‘yxatdan o‘ting va shaxsiy ma’lumotlaringizni to‘ldring va ariza
+                                qoldiring.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <h1 class="statistics-title">OTMlar va yo‘nalishlar kesimida <br> arizalar statistikasi</h1>
+                <div class="filtr">
+                    <div class="filtr-text">
+                        <h1>Filtr</h1>
+                        <h2>Filtrni tozalash</h2>
+                    </div>
+                    <div class="filtr-input">
+                        <select name="select" id="university">
+                            <option value="0" selected>OTM nomini tanlang</option>
+                        </select>
+                        <select name="select" id="university">
+                            <option value="0" selected>Ta’lim tilni tanlang</option>
+                        </select>
+                        <button><img src="/assets/icons/Refresh.svg" alt="">Natijani qo‘llash</button>
+                    </div>
+                </div>
+
+                <div class="table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th rowspan="2" class="name">Mutaxasislik nomi</th>
+                                <th rowspan="2" class="name">Mutaxasislik shifiri</th>
+                                <th rowspan="2" class="age">Age</th>
+                                <th colspan="3" class="name2">Name</th>
+                            </tr>
+                            <tr>
+                                <th class="fn">First Name</th>
+                                <th class="ln">Last Name</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+
+                <table>
+                    <tbody>
+                        <td class="t1">New York No. 1 Lake Park</td>
+                        <td class="t2">Invite Brown</td>
+                        <td class="t3">Delete</td>
+                        <td class="t4">32</td>
+                        <td class="t5">John</td>
+                        <td class="t6">Brown</td>
+                        <td class="t7"><span>nice</span></td>
+                        <td class="t8"><span>developer</span></td>
+                    </tbody>
+                </table>
+
+                <table>
+                    <tbody>
+                        <td class="t1">London No.1 Lake Park</td>
+                        <td class="t2">Invite Green</td>
+                        <td class="t3">Delete</td>
+                        <td class="t4">42</td>
+                        <td class="t5">Jim</td>
+                        <td class="t6">Brown</td>
+                        <td class="t7"><span>loser</span></td>
+                    </tbody>
+                </table>
+
+                <table>
+                    <tbody>
+                        <td class="t1">Sidney No. 1 Lake Park</td>
+                        <td class="t2">Invite Black</td>
+                        <td class="t3">Delete</td>
+                        <td class="t4">32</td>
+                        <td class="t5">Joe</td>
+                        <td class="t6">Black</td>
+                        <td class="t7"><span>cool</span></td>
+                        <td class="t8"><span>teacher</span></td>
+                    </tbody>
+                </table>
+
+                <div class="telegram">
+                    <h1>Telegram orqali bildirishnomlarni tez <br> va oson qabulm qiling!</h1>
+                    <button><img src="/assets/icons/telegram-icon.svg" alt="">Telegramda qabul qiling</button>
+                </div>
+
+                <div class="news">
+                    <h1>Ta‘lim va qabulga oid <br> yangiliklar</h1>
+                    <div class="news-wrapper">
+                        <div class="news-card">
+                            <img src="/assets/images/news-img1.png" alt="">
+                            <p class="date">November 25, 2022</p>
+                            <p class="news-info">Qabul-2020: Magistraturaga qabul va kirish imtihonlari haqida batafsil
+                            </p>
+                        </div>
+
+                        <div class="news-card">
+                            <img src="/assets/images/news-img3.png" alt="">
+                            <p class="date">November 25, 2022</p>
+                            <p class="news-info">2021/2022 o‘quv yili qabulida magistraturaga o‘qishga qabul ...</p>
+                        </div>
+
+                        <div class="news-card">
+                            <img src="/assets/images/news-img3.png" alt="">
+                            <p class="date">November 25, 2022</p>
+                            <p class="news-info">Yana bir talaba Osiyo chempioni bo‘ldi!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="acceptance-wrapper">
+                    <div class="acceptance-card">
+                        <img src="/assets/images/paper1.png" alt="">
+                        <h1>Qabul parametrlari</h1>
+                        <p>2021/2022 o'quv yili uchun qabul kvotalari bilan tanishing</p>
+                        <div class="download">
+                            <img src="/assets/icons/download.svg" alt="">
+                            <p>Yuklab olish</p>
+                        </div>
+                    </div>
+
+                    <div class="acceptance-card">
+                        <img src="/assets/images/paper2.png" class="img-2" alt="">
+                        <h1>Turdosh yo‘nalishlar</h1>
+                        <p>Turdosh yo'nalishlar bir biriga mosligini ko‘rib chiqing</p>
+                        <div class="download">
+                            <img src="/assets/icons/download.svg" alt="">
+                            <p>Yuklab olish</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="footer-card1">
+                    <img src="/assets/icons/footer-logo.svg" alt="">
+                    <p>Portalda eʼlon qilingan materiallardan nusxa koʻchirish, tarqatish va boshqa shakllarda
+                        foydalanish faqat tahririyatyozma roziligi bilan amalga oshirilishi mumkin.
+                    </p>
+                </div>
+
+                <div class="footer-card">
+                    <h1>Asosisy</h1>
+                    <div class="footer-links">
+                        <a href="#">Imtiyozlar</a>
+                        <a href="#">Yangilklar</a>
+                        <a href="#">Satastitika</a>
+                    </div>
+                </div>
+
+                <div class="social-card">
+                    <h1>Biz ijtimoiy tarmoqlarda</h1>
+                    <div class="instagram social footer-hover">
+                        <img src="/assets/icons/instagram.svg" alt="">
+                        <p>Instagram</p>
+                    </div>
+
+                    <div class="telegram-footer social footer-hover">
+                        <img src="/assets/icons/telegram.svg" alt="">
+                        <p>Telegram</p>
+                    </div>
+
+                    <div class="facebook social footer-hover">
+                        <img src="/assets/icons/facebook.svg" alt="">
+                        <p>Facebook</p>
+                    </div>
+                </div>
+
+                <div class="contact-card">
+                    <h1>Bog’lanish</h1>
+                    <div class="number1 social footer-hover">
+                        <img src="/assets/icons/phone.svg" alt="">
+                        <p>+998336959550</p>
+                    </div>
+
+                    <div class="number2 social footer-hover">
+                        <img src="/assets/icons/phone.svg" alt="">
+                        <p>+998336959650</p>
+                    </div>
+
+                    <div class="email social footer-hover">
+                        <img src="/assets/icons/mail.svg" alt="">
+                        <p>aviapack@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <p class="footer-last-title">2021 © Vakansiya edu.uz</p>
+        </div>
+    </footer>
+
+
+</body>
+
+<script>
+
+    var openBtn = document.getElementById('open')
+    var closeBtn = document.getElementById('close')
+    var modal = document.getElementById('modal')
+
+    openBtn.onclick = function () {
+        modal.style.display = 'flex'
+    }
+
+    closeBtn.onclick = function () {
+        modal.style.display = 'none'
+    }
+
+</script>
+
+</html>
